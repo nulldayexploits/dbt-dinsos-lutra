@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)https://cloud.highcharts.com/embed/jYjMb5wud/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Highcharts Cloud</title>
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="KEPALA RUMAH TANGGA">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://cloud.highcharts.com/thumbnails/jYjMb5wud.png">
+    <meta property="og:url" content="https://cloud.highcharts.com/show/jYjMb5wud">
+    <meta name="twitter:card" content="photo">
+    <meta name="twitter:site" content="@Highcharts">
+    <meta name="twitter:title" content="KEPALA RUMAH TANGGA">
+    <meta name="twitter:image" content="https://cloud.highcharts.com/thumbnails/jYjMb5wud.png">
+    <meta name="twitter:url" content="https://cloud.highcharts.com/embed/jYjMb5wud">
+
+    <script type="text/javascript" src="./highstock.js.download"></script> <!-- TODO Include smart compiled highcharts based on features etc. -->
+  <script src="./highcharts-more.js.download"></script>
+  <script src="./highcharts-3d.js.download"></script>
+  <script src="./data.js.download"></script>
+  <script src="./exporting.js.download"></script>
+  <script src="./funnel.js.download"></script>
+  <script src="./solid-gauge.js.download"></script>
+  <script src="./export-data.js.download"></script>
+  <script src="./accessibility.js.download"></script>
+  <script src="./annotations.js.download"></script>
+  
+  <!-- <script src="https://code.highcharts.com/modules/series-label.js"></script> -->
+
+  <style type="text/css">
+      body {
+        background-color: transparent;
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
+        display: block;
+      }
+
+      #container .highcharts-container {
+        margin: 0 auto;
+      }
+    </style>
+
+</head>
+<body>
+
+<div id="container" style="width:100%; height:100%;max-width:1000px;margin: 0 auto"></div>
+
+
+<script type="text/javascript">
+  var options = {
+  "chart": {
+    "polar": false
+  },
+  "title": {
+    "text": "REKAPITULASI BDT KEPALA RUMAH TANGGA"
+  },
+  "subtitle": {
+    "text": "2019"
+  },
+  "series": [
+    {
+      "data": [],
+      "turboThreshold": 0,
+      "_colorIndex": 0,
+      "_symbolIndex": 0,
+      "type": "column"
+    }
+  ],
+  "plotOptions": {
+    "series": {
+      "animation": false
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "text": "DINAS SOSIAL KABUPATEN LUWU UTARA",
+    "href": "#",
+    "style": {
+      "font-size": "16px"
+    }
+  },
+  "data": {
+    "csv": "KAB/KOTA;JUMLAH\nKec.Sabbang ;273432\nKec. Sabbang Selatan;239286\nKec. Baebunta;136222\nKec. Baebunta Selatan;119851\nKec. Masamba ;175398\nKec. Mappedeceng;95342\nKec. Sukamaju ;113975\nKec. Sukamaju Selatan;163942\nKec. Malangke;119529\nKec. Malangke Barat;202955\nKec. Bone-bone;100026\nKec. Tana Lili;103762",
+    "seriesMapping": [
+      {
+        "x": 0,
+        "y": 1
+      }
+    ]
+  },
+  "colors": [
+    "#f15c80"
+  ],
+  "chartarea": {},
+  "plotarea": {},
+  "tooltip": {}
+};
+  var chart;
+  var encodedUrl = encodeURI('https://https://cloud.highcharts.com//show/jYjMb5wud');
+
+
+if (options.yAxis && options.yAxis.length === 1) options.yAxis = options.yAxis[0];
+if (options.xAxis && options.xAxis.length === 1) options.xAxis = options.xAxis[0];
+if (options.zAxis && options.zAxis.length === 1) options.zAxis = options.zAxis[0];
+
+/*
+// Sample of extending options:
+Highcharts.merge(true, options, {
+    chart: {
+        backgroundColor: "#bada55"
+    },
+    plotOptions: {
+        series: {
+            cursor: "pointer",
+            events: {
+                click: function(event) {
+                    alert(this.name + " clicked\n" +
+                          "Alt: " + event.altKey + "\n" +
+                          "Control: " + event.ctrlKey + "\n" +
+                          "Shift: " + event.shiftKey + "\n");
+                }
+            }
+        }
+    }
+});
+*/
+
+  if (options && (options.lang || options.global)) {
+    Highcharts.setOptions({
+      global: options.global || {},
+      lang: options.lang || {}
+    });
+  }
+  new Highcharts.Chart('container', options);
+  // Analytics?
+  var r = new XMLHttpRequest();
+  r.open('POST', 'https://cloud-api.highcharts.com:443/chart/212895/2/view', true);
+  r.setRequestHeader('Content-Type', 'application/json');
+  r.send();
+
+</script>
+
+
+
+</body></html>
